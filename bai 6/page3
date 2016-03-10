@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+p {
+    text-align: center;
+}
+</style>
+</head>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+<table id="t01">
+  <tr>
+ <th>Music/Movie</th>
+ <th>Singer/Actor</th>
+ <th>Abum/Film</th>
+</tr>
+<tr>
+ <td><a href="page 2" target="iframe_a">Baby_Mozar</a></p></td>
+ <td>Baby</td>
+ <td>Baby_Mozar</td>
+</tr>
+<tr>
+<td><a href="page 1" target="iframe_a">Puppy</a></p></td>
+ <td>Puppy</td>
+ <td>Puppy</td>
+</tr>
+<tr>
+<td><a href="page 2" target="iframe_a">Baby_Mozar</a></p></td>
+ <td>Baby</td>
+ <td>Baby_Mozar</td>
+</tr>
+<tr>
+<td><a href="page 1" target="iframe_a">Puppy</a></p></td>
+ <td>Puppy</td>
+ <td>Puppy</td>
+</tr>
+<tr>
+<tr>
+<td><a href="page 2" target="iframe_a">Baby_Mozar</a></p></td>
+ <td>Baby</td>
+ <td>Baby_Mozar</td>
+</tr>
+</table>
+<p>list song</p>
+</body>
+</html>

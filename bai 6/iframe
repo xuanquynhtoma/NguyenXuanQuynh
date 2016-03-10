@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+<iframe src="/demo/html/iframe.html" name="iframe_a"></iframe>
+<br>
+<iframe src="page3" width="320" height="240"></iframe>
+</body>
+</html>
