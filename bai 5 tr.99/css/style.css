@@ -1,0 +1,97 @@
+		{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			padding: 30px;
+			font-size: 20px;
+		}
+		li{
+			list-style: none;
+			width: 150px;
+		}
+		a{
+			background: #1b6873;
+			color: #fff;
+			text-align: center;
+		}
+		.h_nav li:first-child a 
+		{
+			border-radius: 10px 0 0 10px;
+		}
+		.h_nav li:last-child a 
+		{
+			border-radius: 0 10px 10px 0;
+		}
+		.v_nav li:first-child a 
+		{
+			border-radius: 10px 10px 0 0;
+		}
+		.v_nav li:last-child a 
+		{
+			border-radius: 0 0 10px 10px;
+		}
+		a:hover{
+			background: #0a3d45;
+			color: White;
+		}
+		.h_nav li{
+			display: inline-block;
+			float: left;
+		}
+		.h_nav a{
+			text-decoration: none;
+			display: block;
+			width: 100%;
+			height: 30px;
+			padding: 5px 0;
+		}
+		.v_nav, h1{
+			margin: 10px;
+			float: left;
+			width: 100%;
+		}
+		.v_nav a{
+			padding: 5px 10px;
+			text-decoration: none;
+			display: block;
+			height: 30px;
+		}
+		.drop_nav li{
+			float: left;		
+		}
+		.drop_nav a{
+			padding: 5px 10px;
+			text-decoration: none;
+			display: block;
+			height: 30px;
+		}
+		.drop_nav li ul{
+			display: none;
+		}
+		.drop_nav li:hover ul{
+			display: block;
+		}
+		.fly_nav, h1{
+			margin: 10px;
+			float: left;
+			width: 100%;
+		}
+		.fly_nav li{
+			position: relative;
+		}
+		.fly_nav a{
+			padding: 5px 10px;
+			text-decoration: none;
+			display: block;
+			height: 30px;
+		}
+		.fly_nav li ul{
+			display: none;
+			position: absolute;
+			left: 150px;
+			top: 0;
+		}
+		.fly_nav li:hover ul{
+			display: block;
+		}
